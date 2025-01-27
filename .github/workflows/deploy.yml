@@ -16,12 +16,17 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v3
+        with:
+          node-version: 16 # Adjust the version as needed
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build
+
+      - name: Debug Build Output
+        run: ls -la ./dist
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
@@ -33,7 +38,8 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
 
     steps:
       - name: Download artifact
