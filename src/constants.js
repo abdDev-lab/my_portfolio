@@ -48,7 +48,7 @@ export const projects = [
     isCloudinary: false,
 
     projectdesc: "The Delivery Application, developed with Flutter",
-    projectimage: "/projects/devProjects/deliveryapp.png",
+    projectimage: "projects/devProjects/deliveryapp.png",
   },
   {
     projectid: 4,
@@ -65,21 +65,21 @@ export const UIUxProject = [
     projecttitle: "Khotba App",
     projectdesc:
       "Muslim App provides translations of the imam's sermons in multiple languages.",
-    projectimage: "/projects/designProjects/khotba/khotba_main.png",
+    projectimage: "projects/designProjects/khotba/khotba_main.png",
   },
   {
     projectid: 2,
     projecttitle: "PickUp App",
     projectdesc:
       "Pickup is a ride-hailing app that connects drivers and passengers for quick and convenient transportation.",
-    projectimage: "/projects/designProjects/pickup/pickup_main.png",
+    projectimage: "projects/designProjects/pickup/pickup_main.png",
   },
   {
     projectid: 3,
     projecttitle: "Courly App",
     projectdesc:
       "Courly is an app that provides real-time translations of lessons during live teaching sessions.",
-    projectimage: "/projects/designProjects/courly/courly_main.png",
+    projectimage: "projects/designProjects/courly/courly_main.png",
   },
 ];
 
@@ -92,7 +92,7 @@ export const projectsDetails = [
     projectVideo: "videos/laqcwjwe8eapwm5dlvix.mp4",
     projectVideoWidth: 400,
     projectNofication: true,
-    projectNoficationVideo: "/videos/studentAppNotify.mp4",
+    projectNoficationVideo: "../videos/studentAppNotify.mp4",
     projectLink: "https://github.com/abdDev-lab/student-platform",
     projectTechnologie: ["Flutter", "Dart", "PHP", "MySQL", "Sqflite"],
     details: [
@@ -241,7 +241,7 @@ export const designProjectsDetails = [
     projectid: "1",
     projectTitle: "Khotba App",
     isForCustmer: true,
-    projectImage: "/projects/designProjects/khotba/khotba_second_image.png",
+    projectImage: "../projects/designProjects/khotba/khotba_second_image.png",
     projectdesc:
       "Khotba is an innovative Muslim app created to bridge language barriers during religious sermons. It provides real-time translations of the imam's speech, ensuring that worshippers can fully understand and connect with the message, regardless of their native language. With features like multi-language support, a user-friendly interface, and accessibility tools, Khotba enhances inclusivity in mosques. The app is ideal for diverse communities and aims to make Friday prayers and religious talks more accessible to everyone.",
     projectTechnologie: ["Figma"],
@@ -259,7 +259,7 @@ export const designProjectsDetails = [
     projectTitle: "PickUp App",
     isForCustmer: false,
 
-    projectImage: "/projects/designProjects/pickup/pickup_second_image.png",
+    projectImage: "../projects/designProjects/pickup/pickup_second_image.png",
     projectdesc:
       "Pickup is a modern ride-hailing app designed to make transportation seamless and efficient. Similar to Uber, it connects passengers with nearby drivers in real-time, offering reliable rides at competitive rates. With features like live tracking, secure payments, and user-friendly navigation, Pickup ensures a smooth and safe experience for both drivers and riders. Whether you're commuting to work or heading out for an evening, Pickup makes getting around easy and hassle-free.",
     projectTechnologie: ["Figma"],
@@ -276,7 +276,7 @@ export const designProjectsDetails = [
     projectTitle: "Courly App",
     isForCustmer: false,
 
-    projectImage: "/projects/designProjects/courly/courly_second_image.png",
+    projectImage: "../projects/designProjects/courly/courly_second_image.png",
     projectdesc:
       "Courly is an innovative app designed to break language barriers in education by offering real-time translations of courses while teachers are speaking. It ensures that students from diverse linguistic backgrounds can fully understand and engage with lessons in their preferred language. With support for multiple languages, seamless audio processing, and a user-friendly interface, Courly creates an inclusive learning environment, making education accessible to everyone.",
     projectTechnologie: ["Figma"],
@@ -294,42 +294,42 @@ export const designProjectsDetails = [
 export const mySkills = [
   {
     id: 1,
-    logo: "/skillsLogo/icons8-dart-96.png",
+    logo: "skillsLogo/icons8-dart-96.png",
     duration: 2.5,
   },
   {
     id: 2,
-    logo: "/skillsLogo/icons8-flutter-96.png",
+    logo: "skillsLogo/icons8-flutter-96.png",
     duration: 3,
   },
   {
     id: 3,
-    logo: "/skillsLogo/icons8-google-firebase-console-96.png",
+    logo: "skillsLogo/icons8-google-firebase-console-96.png",
     duration: 5,
   },
   {
     id: 4,
-    logo: "/skillsLogo/bloc.png",
+    logo: "skillsLogo/bloc.png",
     duration: 2,
   },
   {
     id: 5,
-    logo: "/skillsLogo/figma.png",
+    logo: "skillsLogo/figma.png",
     duration: 6,
   },
   {
     id: 6,
-    logo: "/skillsLogo/icons8-mysql-96.png",
+    logo: "skillsLogo/icons8-mysql-96.png",
     duration: 4,
   },
   {
     id: 7,
-    logo: "/skillsLogo/icons8-php-80.png",
+    logo: "skillsLogo/icons8-php-80.png",
     duration: 3,
   },
   {
     id: 8,
-    logo: "/skillsLogo/icons8-git-96.png",
+    logo: "skillsLogo/icons8-git-96.png",
     duration: 7,
   },
 ];

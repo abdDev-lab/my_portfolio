@@ -1,5 +1,4 @@
 import React from "react";
-
 import { designProjectsDetails } from "../constants";
 import { Cloudinary } from "@cloudinary/url-gen";
 import { AdvancedImage } from "@cloudinary/react";

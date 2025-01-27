@@ -13,7 +13,7 @@ function App() {
       <div className="fixed inset-0 bg-fixed bg-cover bg-center"></div>
       <div className="relative z-10 flex flex-col items-center  p-4 space-y-8 container mx-auto">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/"  element={<Home />} />
           <Route path="project-details/:id" element={<ProjectDetails  />} />
           <Route path="design-project-details/:id" element={<DesignProjectDetails  />} />
         </Routes>
