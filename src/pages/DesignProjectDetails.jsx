@@ -120,7 +120,7 @@ export default function DesignProjectDetails() {
                     key={img}
                     cldImg={img}
                     className="h-full w-full object-cover transition-transform duration-500
-                            group-hover:scale-110"
+                            "
                   />
                 </motion.div>
               );
