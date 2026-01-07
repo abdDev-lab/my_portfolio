@@ -23,7 +23,7 @@ export default function Bio() {
         flex flex-col items-center gap-2 w-60"
         >
           <h3 className="text-3xl font-semibold">Experience</h3>
-          <p className="text-xl">+1 YEARS </p>
+          <p className="text-xl">2 YEARS </p>
           <p className="text-sm text-stone-300">Mobile Develepment</p>
         </div>
         <div
